@@ -13,7 +13,7 @@
 
 </div>
 
-![SBX XorFilter flow](assets/xorfilter-flow.svg)
+![SBX XorFilter flow](xorfilter.png)
 
 ## Что Это
 
@@ -120,6 +120,13 @@ int hit = xorfilter_check_hash_inline(&filter, raw64);
 - Фильтр статический: удаления элементов нет.
 - Проверка вероятностная: false positive возможен.
 - Основной сценарий: много lookup-проверок после финализации.
+
+## Donate
+
+If SBX XorFilter is useful to your work, you can support the project here:
+
+- Bitcoin (BTC): `1ECDSA1b4d5TcZHtqNpcxmY8pBH1GgHntN`
+- USDT (TRC20): `TUF4vPdB6QkjCvZq18rBL4Qj4dK5ihCN75`
 
 ## Лицензия
 

@@ -13,7 +13,7 @@ Compact static XOR filter for high-throughput 64-bit lookups.
 
 </div>
 
-![SBX XorFilter flow](assets/xorfilter-flow.svg)
+![SBX XorFilter flow](xorfilter.png)
 
 ## What It Is
 
@@ -120,6 +120,13 @@ int hit = xorfilter_check_hash_inline(&filter, raw64);
 - Static filter: no delete operation.
 - Probabilistic membership: false positives are possible.
 - Intended for lookup-heavy workloads after finalization.
+
+## Donate
+
+If SBX XorFilter is useful to your work, you can support the project here:
+
+- Bitcoin (BTC): `1ECDSA1b4d5TcZHtqNpcxmY8pBH1GgHntN`
+- USDT (TRC20): `TUF4vPdB6QkjCvZq18rBL4Qj4dK5ihCN75`
 
 ## License
 
